@@ -14,6 +14,8 @@
 		AF49AAB521E601FB0044EF0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF49AAB321E601FB0044EF0A /* LaunchScreen.storyboard */; };
 		AF49AAC021E601FB0044EF0A /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF49AABF21E601FB0044EF0A /* TestTests.swift */; };
 		AF49AACB21E601FB0044EF0A /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF49AACA21E601FB0044EF0A /* TestUITests.swift */; };
+		AF49AADA21E605F30044EF0A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF49AAD821E605F30044EF0A /* TableViewCell.swift */; };
+		AF49AADB21E605F30044EF0A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF49AAD921E605F30044EF0A /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AF49AAC621E601FB0044EF0A /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF49AACA21E601FB0044EF0A /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		AF49AACC21E601FB0044EF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF49AAD821E605F30044EF0A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AF49AAD921E605F30044EF0A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				AF49AAB121E601FB0044EF0A /* Assets.xcassets */,
 				AF49AAB321E601FB0044EF0A /* LaunchScreen.storyboard */,
 				AF49AAB621E601FB0044EF0A /* Info.plist */,
+				AF49AAD821E605F30044EF0A /* TableViewCell.swift */,
+				AF49AAD921E605F30044EF0A /* TableViewCell.xib */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF49AAB521E601FB0044EF0A /* LaunchScreen.storyboard in Resources */,
+				AF49AADB21E605F30044EF0A /* TableViewCell.xib in Resources */,
 				AF49AAB221E601FB0044EF0A /* Assets.xcassets in Resources */,
 				AF49AAB021E601F90044EF0A /* Main.storyboard in Resources */,
 			);
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF49AADA21E605F30044EF0A /* TableViewCell.swift in Sources */,
 				AF49AAAD21E601F90044EF0A /* ViewController.swift in Sources */,
 				AF49AAAB21E601F90044EF0A /* AppDelegate.swift in Sources */,
 			);
@@ -441,7 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NTUB.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NTUB.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
