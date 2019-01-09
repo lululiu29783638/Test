@@ -25,6 +25,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
 
     @IBAction func clickTextField(_ sender: Any) {
+        print(123)
     }
     
     @IBOutlet weak var textField: UITextField!
